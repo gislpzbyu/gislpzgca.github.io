@@ -43,3 +43,14 @@ header img {
     border-radius: 15px;
     box-shadow: 8px 8px 8px #444;
 }
+
+@media screen and (max-width: 550px) {
+
+    body,
+    header,
+    main,
+    footer
+    {
+        display: block;
+    }
+}
